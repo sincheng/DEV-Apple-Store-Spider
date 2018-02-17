@@ -1,7 +1,5 @@
 # DEV-Apple-Store-Spider
-Create a spider with Scrapy to scrape Apple store information including Store image, name, address and regions...etc
-</br>
-Link: https://www.apple.com/retail/storelist/
+Create a spider with Scrapy to scrape Apple store information including Store image, name, address and regions...etc from website (Link: https://www.apple.com/retail/storelist/)
 
 ## Prerequisites
 Libraries need to be used in this program
@@ -32,15 +30,15 @@ import json
 ## Functions
 This spider project contains 4 functions including 2 parse functions
 </br>
-stores.py 
-1. parse(self,response) </br>
+#### stores.py 
+##### parse(self,response) 
 The function extracts the country , region and city fields of each store and extract store address to further scraping 
-2. parse_store(self,response)</br>
+##### parse_store(self,response)
 Second parse function to extract Store name , address , img url and coordinates.
-3. findAddress(inputString)</br>
-A function to extract address from response and return as string
-geocode.py</br>
-4. getCoordinates(inputSting)</br>
+##### findAddress(inputString)
+A function to extract address from response and return as string</br>
+#### geocode.py
+##### getCoordinates(inputSting)
 A function to connect google map api and get the coordinates of the address
 
 ## Testing
