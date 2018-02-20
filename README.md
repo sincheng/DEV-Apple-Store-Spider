@@ -26,6 +26,11 @@ Parse json from google map api result
 ```
 import json
 ```
+5. RE</br>
+Use regular expression to remove special characters in address
+```
+import re
+```
 
 ## Functions
 This spider project contains 4 functions including 2 parse functions
@@ -35,8 +40,8 @@ This spider project contains 4 functions including 2 parse functions
 The function extracts the country , region and city fields of each store and extract store address to further scraping 
 ##### parse_store(self,response)
 Second parse function to extract Store name , address , img url and coordinates.
-##### findAddress(inputString)
-A function to extract address from response and return as string</br>
+##### findAddress(address_response)
+A function to extract address from response and return as region , city and address</br>
 #### geocode.py
 ##### getCoordinates(inputSting)
 A function to connect google map api and get the coordinates of the address
@@ -45,4 +50,4 @@ A function to connect google map api and get the coordinates of the address
 working on it, will update soon
 
 ## Output
-
+Total 501 stores information extracted and save as stores_info.json
