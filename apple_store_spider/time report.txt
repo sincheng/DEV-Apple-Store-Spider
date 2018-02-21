@@ -1,0 +1,5 @@
+
+
+Time ReportTask 							HoursRead Instruction & Inspect Apple store website		1Program Design						2Coding							8Code Review						1Fix issue of foreign language in address & store name	1Access Google Maps geocode API				1Testing							2
+Debug							2
+
