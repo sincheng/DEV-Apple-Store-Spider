@@ -46,8 +46,5 @@ A function to extract address from response and return as region , city and addr
 ##### getCoordinates(inputSting)
 A function to connect google map api and get the coordinates of the address
 
-## Testing
-working on it, will update soon
-
 ## Output
 Total 501 stores information extracted and save as stores_info.json
